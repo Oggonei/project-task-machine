@@ -1,0 +1,30 @@
+@use '../../styles/globals.scss' as *;
+
+.todoItem-li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 16px;
+  background-color: $light-color;
+}
+
+.todoItem-li_check, .todoItem-li_delete {
+  display: flex;
+  font-size: 28px;
+}
+
+.todoItem-li_text {
+  margin: 0 12px;
+}
+
+.todoItem-li_check:hover, .todoItem-li_delete:hover {
+  color: $secondary-color;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+}

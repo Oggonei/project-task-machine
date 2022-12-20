@@ -1,0 +1,23 @@
+@use './styles/globals.scss' as *;
+
+body {
+  background-color: $base-color;
+  color: $white;
+}
+
+.todo-title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.todo-title-container_icon {
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.todo-title-container_title {
+  font-size: 32px;
+}

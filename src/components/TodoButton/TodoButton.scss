@@ -1,0 +1,21 @@
+@use '../../styles/globals.scss' as *;
+
+.todoButton-container {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.todoButton-container_button {
+  border: none;
+  border-radius: 50%;
+  font-size: 52px;
+  padding: 0 16px;
+  background-color: $light-color;
+  color: $white;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $secondary-color;
+  }
+}

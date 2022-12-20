@@ -1,0 +1,12 @@
+@use '../../styles/globals.scss' as *;
+
+.todoList-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.todoList-container-ul {
+  list-style: none;
+  width: 85%;
+}
