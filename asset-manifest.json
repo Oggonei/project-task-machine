@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/project-task-machine/static/css/main.56bfca12.css",
+    "main.js": "/project-task-machine/static/js/main.b690e412.js",
+    "index.html": "/project-task-machine/index.html",
+    "main.56bfca12.css.map": "/project-task-machine/static/css/main.56bfca12.css.map",
+    "main.b690e412.js.map": "/project-task-machine/static/js/main.b690e412.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56bfca12.css",
+    "static/js/main.b690e412.js"
+  ]
+}
