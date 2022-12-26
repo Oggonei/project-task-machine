@@ -9,7 +9,6 @@ import TodoItem from '../TodoItem/TodoItem';
 import TodoList from '../TodoList/TodoList';
 import TodoSearch from '../TodoSearch/TodoSearch';
 import './AppUI.scss';
-import { MdOutlineLibraryAdd } from "react-icons/md";
 
 const AppUI = () => {
 
@@ -41,7 +40,11 @@ const AppUI = () => {
         completed={completedTodos}
         />
         <TodoList>
-          {!totalTodos && <div className='addNewTask-container'><p>Add new Tasks</p><MdOutlineLibraryAdd className='addNewTask-container-icon'/></div>}
+          {!totalTodos && 
+            <div className='addNewTask-container'>
+              <p>Add new Tasks</p>
+            </div>
+          }
           {searchedTodos.map( todo => (
             <TodoItem 
               key={todo.text} 

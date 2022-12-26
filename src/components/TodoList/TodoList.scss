@@ -10,3 +10,10 @@
   list-style: none;
   width: 85%;
 }
+
+@media screen and (min-width: 600px) {
+  .todoList-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

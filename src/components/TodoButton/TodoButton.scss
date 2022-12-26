@@ -19,3 +19,17 @@
     background-color: $secondary-color;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .todoButton-container {
+    bottom: 40px;
+    left: 46.5%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .todoButton-container {
+    bottom: 40px;
+    left: 48.5%;
+  }
+}

@@ -21,3 +21,10 @@
   margin-top: 20px;
   border-radius: 8px;
 }
+
+@media screen and (min-width: 600px) {
+  .todoCounter-container_separator {
+    max-width: 800px;
+    margin: 20px auto 0;
+  }
+}
